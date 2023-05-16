@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sphinx-shikijs"
-version = "0.1.0"
+version = "0.1.0a"
 description = ""
 authors = ["Ashley Trinh <itsashley@hey.com>"]
 readme = "README.md"
