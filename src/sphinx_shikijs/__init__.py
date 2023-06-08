@@ -72,7 +72,6 @@ def visit_literal_block(self, node: nodes.Element) -> None:
             f"failed to highlight code block due to error: {exc}",
             location=node,
             type="shikijs",
-            subtype=self.builder.env.docname,
         )
 
     starttag = self.starttag(
